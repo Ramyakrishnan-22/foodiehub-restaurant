@@ -159,7 +159,7 @@ const menu = {
   pongal: {
     title: 'Pongal',
     emoji: '🍲',
-    img: 'images/pongal-category.jpg',
+    img: 'images/pongal category.jpg',
     items: [
       {
         name: 'Ven Pongal',
@@ -177,25 +177,25 @@ const menu = {
         name: 'Pepper Pongal',
         price: 70,
         desc: 'Extra peppery pongal with a warm, spicy kick.',
-        img: 'images/pepper-pongal.jpg'
+        img: 'images/pepper pongal.jpg'
       },
       {
         name: 'Sakkarai Pongal',
         price: 80,
         desc: 'Sweet pongal made with jaggery, ghee, cashews and cardamom.',
-        img: 'images/sakkarai-pongal.jpg'
+        img: 'images/sakkarai pongal.jpg'
       },
       {
         name: 'Millet Pongal',
         price: 75,
         desc: 'Healthy pongal made with millet, moong dal and black pepper.',
-        img: 'images/millet-pongal.jpg'
+        img: 'images/millet pongal.jpg'
       },
       {
         name: 'Rava Pongal',
         price: 70,
         desc: 'Healthy pongal made with millet, moong dal and black pepper.',
-        img: 'images/rava-pongal.jpg'
+        img: 'images/rava pongal.jpg'
       }
     ]
   },
@@ -203,78 +203,86 @@ const menu = {
     title: 'Rice Varieties',
     emoji: '🍚',
     img: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600',
+
     items: [
       {
         name: 'Lemon Rice',
         price: 70,
-        desc: 'Traditional rice flavoured with lemon, turmeric and spices.'
+        desc: 'Traditional rice flavoured with lemon, turmeric and spices.',
+        img: 'images/lemon rice.jpg'
       },
       {
         name: 'Tomato Rice',
         price: 75,
-        desc: 'Delicious rice cooked with fresh tomatoes and aromatic spices.'
+        desc: 'Delicious rice cooked with fresh tomatoes and aromatic spices.',
+        img: 'images/tomato rice.jpg'
       },
       {
         name: 'Curd Rice',
         price: 60,
-        desc: 'Cooling curd rice topped with mustard seeds and curry leaves.'
+        desc: 'Cooling curd rice topped with mustard seeds and curry leaves.',
+        img: 'images/curd rice.jpg'
       },
       {
         name: 'Coconut Rice',
         price: 70,
-        desc: 'Fresh coconut rice with cashews and aromatic seasoning.'
+        desc: 'Fresh coconut rice with cashews and aromatic seasoning.',
+        img: 'images/coconut rice.jpg'
       },
       {
         name: 'Sambar Rice',
         price: 80,
-        desc: 'Traditional South Indian rice mixed with vegetable sambar.'
+        desc: 'Traditional South Indian rice mixed with vegetable sambar.',
+        img: 'images/sambar rice.jpg'
       },
       {
         name: 'Veg Biryani',
         price: 120,
-        desc: 'Fragrant basmati rice cooked with fresh vegetables and spices.'
+        desc: 'Fragrant basmati rice cooked with fresh vegetables and spices.',
+        img: 'images/veg biryani.jpg'
       },
       {
         name: 'Mushroom Biryani',
         price: 140,
-        desc: 'Aromatic biryani prepared with mushrooms and Indian spices.'
+        desc: 'Aromatic biryani prepared with mushrooms and Indian spices.',
+        img: 'images/mushroom biryani.jpg'
       },
       {
         name: 'Ghee Rice',
         price: 100,
-        desc: 'Flavourful rice cooked with pure ghee and cashews.'
+        desc: 'Flavourful rice cooked with pure ghee and cashews.',
+        img: 'images/ghee rice.jpg'
       }
     ]
   },
-
   parotta: {
     title: 'Parotta',
     emoji: '🫓',
-    img: 'images/parotta-category.jpg',
+    img: 'images/parotta category.jpg',
     items: [
       {
         name: 'Plain Parotta',
         price: 50,
         desc: 'Flaky layered South Indian parotta.',
-        img: 'images/plain-parotta.jpg'
+        img: 'images/plain parotta.jpg'
       },
       {
         name: 'Coin Parotta',
         price: 70,
         desc: 'Mini crispy layered parottas.',
-        img: 'images/coin-parotta.jpg'
+        img: 'images/coin parotta.jpg'
       },
       {
         name: 'Kothu Parotta',
         price: 100,
         desc: 'Chopped parotta tossed with vegetables and spices.',
-        img: 'images/kothu-parotta.jpg'
+        img: 'images/kothu parotta.jpg'
       },
       {
         name: 'Chilli Parotta',
         price: 110,
         desc: 'Spicy parotta tossed with onion and capsicum.',
-        img: 'images/chilli-parotta.jpg'
+        img: 'images/chilli parotta.jpg'
       }
     ]
   },
@@ -282,37 +290,37 @@ const menu = {
   gravies: {
     title: 'Gravies & Curries',
     emoji: '🍛',
-    img: 'images/gravies-category.jpg',
+    img: 'images/gravies category.jpg',
     items: [
       {
         name: 'Veg Kurma',
         price: 80,
         desc: 'Mixed vegetables in creamy coconut gravy.',
-        img: 'images/veg-kurma.jpg'
+        img: 'images/veg kurma.jpg'
       },
       {
         name: 'Paneer Butter Masala',
         price: 150,
         desc: 'Paneer cooked in rich tomato and butter gravy.',
-        img: 'images/paneer-butter-masala.jpg'
+        img: 'images/paneer butter masala.jpg'
       },
       {
         name: 'Dal Fry',
         price: 100,
         desc: 'Yellow lentils cooked with aromatic spices.',
-        img: 'images/dal-fry.jpg'
+        img: 'images/dal fry.jpg'
       },
       {
         name: 'Chana Masala',
         price: 110,
         desc: 'Chickpeas cooked in traditional masala gravy.',
-        img: 'images/chana-masala.jpg'
+        img: 'images/chana masala.jpg'
       },
       {
         name: 'Mushroom Masala',
         price: 140,
         desc: 'Fresh mushrooms cooked in spicy gravy.',
-        img: 'images/mushroom-masala.jpg'
+        img: 'images/mushroom masala.jpg'
       }
     ]
   },
@@ -320,7 +328,7 @@ const menu = {
   snacks: {
     title: 'Evening Snacks',
     emoji: '🍟',
-    img: 'images/snacks-category.jpg',
+    img: 'images/snacks category.jpg',
     items: [
       {
         name: 'Samosa',
@@ -358,7 +366,7 @@ const menu = {
   desserts: {
     title: 'Desserts',
     emoji: '🍨',
-    img: 'images/desserts-category.jpg',
+    img: 'images/desserts category.jpg',
     items: [
       {
         name: 'Gulab Jamun',
