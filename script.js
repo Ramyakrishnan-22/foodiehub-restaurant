@@ -105,7 +105,18 @@ const menu = {
         desc: 'Idlis soaked in piping hot vegetable sambar.',
         img: 'images/sambar idli.jpg'
       },
-
+      {
+        name: 'Thatte Idli',
+        price: 70,
+        desc: 'Large, plate-shaped soft idli served with chutney.',
+        img: 'images/Thatte Idli.jpg'
+      },
+      {
+        name: 'Kanchipuram Idli',
+        price: 80,
+        desc: 'Spiced idli with cashews, ginger and pepper.',
+        img: 'images/Kanchipuram Idli.jpg'
+      }
     ]
   },
   puri: {
