@@ -352,113 +352,113 @@
       </div>
 
       <!-- GOOGLE MAP -->
-<!-- GOOGLE MAP -->
-<div class="contact-map">
-  <iframe src="https://maps.google.com/maps?q=T.%20Nagar%2C%20Chennai&z=15&output=embed" width="100%" height="350"
-    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-    title="Food Hub location map">
-  </iframe>
-</div>
+      <!-- GOOGLE MAP -->
+      <div class="contact-map">
+        <iframe src="https://maps.google.com/maps?q=T.%20Nagar%2C%20Chennai&z=15&output=embed" width="100%" height="350"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Food Hub location map">
+        </iframe>
+      </div>
 
-<a class="map-link" href="https://www.google.com/maps/search/?api=1&query=T.+Nagar+Chennai" target="_blank"
-  rel="noopener">
-  📍 Open in Google Maps
-</a>
-
-
-  <!-- FOOTER -->
-  <footer class="site-footer">
-
-    <div class="footer-content">
-
-      <a href="#home" class="logo">
-        🌿 Food Hub
-        <span>Pure Veg</span>
+      <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=T.+Nagar+Chennai" target="_blank"
+        rel="noopener">
+        📍 Open in Google Maps
       </a>
 
-      <p>
-        Fresh food. Traditional taste. Happy moments.
-      </p>
 
-      <div class="footer-links">
-        <a href="#home">Home</a>
-        <a href="#about">About Us</a>
-        <a href="#menu">Menu</a>
-        <a href="#contact">Contact</a>
+      <!-- FOOTER -->
+      <footer class="site-footer">
+
+        <div class="footer-content">
+
+          <a href="#home" class="logo">
+            🌿 Food Hub
+            <span>Pure Veg</span>
+          </a>
+
+          <p>
+            Fresh food. Traditional taste. Happy moments.
+          </p>
+
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <p class="copyright">
+            © 2026 Food Hub Pure Veg Restaurant. All Rights Reserved.
+          </p>
+
+        </div>
+
+      </footer>
+    </section>
+
+    <!-- CART OVERLAY -->
+    <div id="overlay" class="overlay hidden"></div>
+
+
+    <!-- CART DRAWER -->
+    <aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
+
+      <div class="cart-header">
+
+        <h3>Your Cart</h3>
+
+        <button id="cartClose" class="close-btn" aria-label="Close cart">
+          ✕
+        </button>
+
       </div>
 
-      <p class="copyright">
-        © 2026 Food Hub Pure Veg Restaurant. All Rights Reserved.
-      </p>
+      <div id="cartItems" class="cart-items"></div>
 
-    </div>
+      <div class="cart-footer">
 
-  </footer>
+        <div class="cart-total">
+          <span>Total</span>
+          <span id="cartTotal">₹0</span>
+        </div>
 
+        <button id="placeOrderBtn" class="place-btn" disabled>
+          Place Order
+        </button>
 
-  <!-- CART OVERLAY -->
-  <div id="overlay" class="overlay hidden"></div>
+        <button id="clearBtn" class="clear-btn">
+          Clear Cart
+        </button>
 
-
-  <!-- CART DRAWER -->
-  <aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
-
-    <div class="cart-header">
-
-      <h3>Your Cart</h3>
-
-      <button id="cartClose" class="close-btn" aria-label="Close cart">
-        ✕
-      </button>
-
-    </div>
-
-    <div id="cartItems" class="cart-items"></div>
-
-    <div class="cart-footer">
-
-      <div class="cart-total">
-        <span>Total</span>
-        <span id="cartTotal">₹0</span>
       </div>
 
-      <button id="placeOrderBtn" class="place-btn" disabled>
-        Place Order
-      </button>
-
-      <button id="clearBtn" class="clear-btn">
-        Clear Cart
-      </button>
-
-    </div>
-
-  </aside>
+    </aside>
 
 
-  <!-- ORDER CONFIRMATION MODAL -->
-  <div id="orderModal" class="modal hidden">
+    <!-- ORDER CONFIRMATION MODAL -->
+    <div id="orderModal" class="modal hidden">
 
-    <div class="modal-box">
+      <div class="modal-box">
 
-      <div class="modal-icon">✅</div>
+        <div class="modal-icon">✅</div>
 
-      <h3>Order Placed!</h3>
+        <h3>Order Placed!</h3>
 
-      <p id="orderMsg"></p>
+        <p id="orderMsg"></p>
 
-      <div id="orderSummary" class="order-summary"></div>
+        <div id="orderSummary" class="order-summary"></div>
 
-      <button id="orderOk" class="place-btn">
-        OK
-      </button>
+        <button id="orderOk" class="place-btn">
+          OK
+        </button>
+
+      </div>
 
     </div>
 
-  </div>
 
-
-  <!-- JAVASCRIPT -->
-  <script src="script.js"></script>
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
 
 </body>
 
