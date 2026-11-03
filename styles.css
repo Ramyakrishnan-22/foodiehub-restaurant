@@ -2443,3 +2443,16 @@ body {
     scroll-margin-top: 65px;
   }
 }
+
+/* overflow hidden sticky-a break pannum, adhunaala clip use pannuren */
+html,
+body {
+  overflow-x: clip !important;
+}
+
+/* Header ellaa page/section-layum mela nikkum */
+.site-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+}
