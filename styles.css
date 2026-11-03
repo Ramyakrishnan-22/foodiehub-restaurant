@@ -2505,6 +2505,72 @@ html {
 
 @media (max-width: 768px) {
   .about-section {
-    margin-top: 30px !important;
+    margin-top: 50px !important;
   }
+}
+
+/* Hero-kum About card-kum naduvula gap */
+.hero {
+  margin-bottom: 50px;
+}
+
+.about-section {
+  margin-top: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin-bottom: 30px;
+  }
+}
+
+/* ===== FINAL PHONE FIX ===== */
+@media (max-width: 768px) {
+
+  /* Header: chinnatha, fixed */
+  .site-header {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 4% !important;
+    z-index: 1000 !important;
+  }
+
+  body {
+    padding-top: 62px !important;
+  }
+
+  /* Hero: keezha gap */
+  .hero {
+    margin-bottom: 30px !important;
+  }
+
+  /* About card: mela/keezha gap */
+  .about-section {
+    margin: 0 15px 35px !important;
+  }
+
+  /* Menu, About, Contact click panna header-ku keezha start aagum */
+  html {
+    scroll-padding-top: 0 !important;
+  }
+
+  #menu,
+  #about,
+  #contact {
+    scroll-margin-top: 62px !important;
+  }
+}
+
+/* Cart header-ku mela (phone + laptop) */
+.overlay {
+  top: 0 !important;
+  z-index: 10000 !important;
+}
+
+.cart-drawer {
+  top: 0 !important;
+  height: 100% !important;
+  z-index: 10001 !important;
 }
