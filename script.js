@@ -109,7 +109,7 @@ const menu = {
         name: 'Thatte Idli',
         price: 70,
         desc: 'Large, plate-shaped soft idli served with chutney.',
-        img: 'images/Thatte idli.jpg'
+        img: 'images/thatte idli.jpg'
       },
       {
         name: 'Kanchipuram Idli',
@@ -183,13 +183,13 @@ const menu = {
         name: 'Sakkarai Pongal',
         price: 80,
         desc: 'Sweet pongal made with jaggery, ghee, cashews and cardamom.',
-        img: 'images/Sakkarai pongal.jpg'
+        img: 'images/sakkarai pongal.jpg'
       },
       {
         name: 'Millet Pongal',
         price: 75,
         desc: 'Healthy pongal made with millet, moong dal and black pepper.',
-        img: 'images/Millet pongal.jpg'
+        img: 'images/millet pongal.jpg'
       },
       {
         name: 'Rava Pongal',
