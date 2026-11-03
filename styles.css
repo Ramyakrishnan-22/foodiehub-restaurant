@@ -2428,13 +2428,13 @@ body {
     padding: 0;
   }
 
-  /* HOME: header chinnatha aanadhunaala hero space adjust */
+  /* HOME: header  */
   .hero,
   #home {
     min-height: calc(100svh - 60px);
   }
 
-  /* ABOUT & ellaa sections: menu click panna header-ku keezha theriyum */
+  /* ABOUT & ellaa sections: menu click  */
   html {
     scroll-padding-top: 65px;
   }
@@ -2444,25 +2444,46 @@ body {
   }
 }
 
-/* overflow hidden sticky-a break pannum, adhunaala clip use pannuren */
+
 html,
 body {
   overflow-x: clip !important;
 }
 
-/* Header ellaa page/section-layum mela nikkum */
+
 .site-header {
   position: sticky !important;
   top: 0 !important;
   z-index: 1000 !important;
 }
 
-/* About click panna, About section top-la nikkum, hero theriyaadhu */
-#about {
+*/ #about {
   scroll-margin-top: var(--header-h, 62px) !important;
   margin-top: 0 !important;
 }
 
 html {
   scroll-padding-top: 0 !important;
+}
+
+/* Menu, About, Contact: click  */
+#menu,
+#about,
+#contact {
+  scroll-margin-top: var(--header-h, 62px) !important;
+}
+
+#about {
+  margin-top: 0 !important;
+}
+
+html {
+  scroll-padding-top: 0 !important;
+}
+
+/* Phone-ku mattum */
+@media (max-width: 768px) {
+  .about-section {
+    margin-top: 0 !important;
+  }
 }
