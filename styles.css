@@ -2456,3 +2456,13 @@ body {
   top: 0 !important;
   z-index: 1000 !important;
 }
+
+/* About click panna, About section top-la nikkum, hero theriyaadhu */
+#about {
+  scroll-margin-top: var(--header-h, 62px) !important;
+  margin-top: 0 !important;
+}
+
+html {
+  scroll-padding-top: 0 !important;
+}
