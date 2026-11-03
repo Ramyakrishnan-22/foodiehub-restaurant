@@ -2487,3 +2487,7 @@ html {
     margin-top: 0 !important;
   }
 }
+/* About mattum konjam keezha */
+#about {
+  scroll-margin-top: 0px !important;
+}
