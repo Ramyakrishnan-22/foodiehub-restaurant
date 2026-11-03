@@ -328,7 +328,7 @@ const menu = {
   snacks: {
     title: 'Evening Snacks',
     emoji: '🍟',
-    img: 'images/snacks category.jpg',
+    img: 'images/snacks-category.jpg',
     items: [
       {
         name: 'Samosa',
@@ -366,7 +366,7 @@ const menu = {
   desserts: {
     title: 'Desserts',
     emoji: '🍨',
-    img: 'images/desserts category.jpg',
+    img: 'images/desserts-category.jpg',
     items: [
       {
         name: 'Gulab Jamun',
