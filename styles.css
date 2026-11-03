@@ -2350,3 +2350,7 @@ section {
 .cart-drawer {
   z-index: 9001 !important;
 }
+
+body {
+  padding-top: var(--header-h, 100px);
+}
