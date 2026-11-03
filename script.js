@@ -645,16 +645,3 @@ if (contactForm) {
 
 renderCategories();
 renderCart();
-function setHeaderHeight() {
-  const header = document.querySelector(".site-header");
-  if (header) {
-    document.documentElement.style.setProperty(
-      "--header-h",
-      header.offsetHeight + "px"
-    );
-  }
-}
-
-setHeaderHeight();
-window.addEventListener("resize", setHeaderHeight);
-window.addEventListener("load", setHeaderHeight);

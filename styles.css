@@ -2349,18 +2349,4 @@ section {
 
 .cart-drawer {
   z-index: 9001 !important;
-}:root {
-  --header-h: 100px;
-}
-
-.overlay {
-  top: var(--header-h);
-  z-index: 90;
-}
-
-.cart-drawer {
-  top: var(--header-h);
-  height: calc(100% - var(--header-h));
-  padding-top: 0;
-  z-index: 100;
 }
