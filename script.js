@@ -191,7 +191,7 @@ const menu = {
         desc: 'Healthy pongal made with millet, moong dal and black pepper.',
         img: 'images/millet-pongal.jpg'
       },
-       {
+      {
         name: 'Rava Pongal',
         price: 70,
         desc: 'Healthy pongal made with millet, moong dal and black pepper.',
@@ -410,6 +410,7 @@ const cartItemsEl = document.getElementById('cartItems');
 const cartCountEl = document.getElementById('cartCount');
 const cartTotalEl = document.getElementById('cartTotal');
 const clearBtn = document.getElementById('clearBtn');
+const continueShopping = document.getElementById('continueShopping');
 
 const categoryTabs = document.getElementById('categoryTabs');
 const navMenu = document.getElementById('navMenu');
@@ -626,6 +627,9 @@ cartToggle.addEventListener('click', openCart);
 cartClose.addEventListener('click', closeCart);
 overlay.addEventListener('click', closeCart);
 clearBtn.addEventListener('click', function () { cart = []; renderCart(); });
+continueShopping.addEventListener('click', function () {
+  closeCart();
+});
 
 // Contact form submission
 const contactForm = document.getElementById("contactForm");

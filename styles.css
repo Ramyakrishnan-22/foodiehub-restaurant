@@ -2226,3 +2226,20 @@ section {
   }
 
 }
+
+#continueShopping {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  background: transparent;
+  color: #8b6845;
+  border: 1px solid #c29b68;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#continueShopping:hover {
+  background: #c29b68;
+  color: white;
+}
