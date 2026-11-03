@@ -2378,3 +2378,68 @@ body {
   padding-top: 0 !important;
   z-index: 10001 !important;
 }
+
+/* ===== Phone: chinna navigation ===== */
+@media (max-width: 768px) {
+  .site-header {
+    padding: 8px 4% !important;
+  }
+
+  .logo-name {
+    font-size: 1.15rem;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+
+  .logo-leaf-icon {
+    width: 16px;
+    height: 16px;
+    margin-top: -2px;
+  }
+
+  .logo-subtitle {
+    font-size: 0.5rem;
+    letter-spacing: 1.6px;
+    margin-top: 0;
+    white-space: nowrap;
+  }
+
+  .header-nav-wrap {
+    gap: 12px;
+  }
+
+  .cart-btn {
+    padding: 4px 5px 4px 12px;
+    gap: 6px;
+  }
+
+  .cart-btn-label {
+    font-size: 0.68rem;
+    letter-spacing: 0.8px;
+  }
+
+  .cart-count {
+    font-size: 0.68rem;
+    padding: 3px 9px;
+  }
+
+  .menu-toggle {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+
+  /* HOME: header chinnatha aanadhunaala hero space adjust */
+  .hero,
+  #home {
+    min-height: calc(100svh - 60px);
+  }
+
+  /* ABOUT & ellaa sections: menu click panna header-ku keezha theriyum */
+  html {
+    scroll-padding-top: 65px;
+  }
+
+  section {
+    scroll-margin-top: 65px;
+  }
+}
