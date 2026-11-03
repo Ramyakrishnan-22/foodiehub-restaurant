@@ -2597,3 +2597,116 @@ html {
     margin-bottom: 80px !important;
   }
 }
+
+@media (max-width: 768px) {
+  .hero {
+    padding-bottom: 0 !important;
+  }
+
+  .about-section {
+    top: 0 !important;
+    margin-top: 60px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 10px !important;
+  }
+
+  .hero-content {
+    transform: none !important;
+  }
+
+  .food-icon {
+    margin-top: 0 !important;
+    margin-bottom: 12px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto !important;
+    padding-bottom: 90px !important;
+    overflow: visible !important;
+  }
+
+  .hero-image {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* Nav bar keezha gap illa: hero background header keezha varaikkum pogum */
+  body {
+    padding-top: 0 !important;
+  }
+
+  .hero {
+    padding-top: 62px !important;
+    /* header height */
+    padding-bottom: 60px !important;
+    /* hero image keezha space */
+    margin-bottom: 0 !important;
+  }
+
+  .hero-content {
+    transform: none !important;
+  }
+
+  .food-icon {
+    margin-top: 0 !important;
+  }
+
+  /* Hero-kum About-kum naduvula gap */
+  body .about-section {
+    margin: 40px 15px 35px !important;
+    top: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* Home / Hero section */
+  .hero {
+    height: auto !important;
+    min-height: auto !important;
+    padding-bottom: 35px !important;
+    margin-bottom: 0 !important;
+    position: relative !important;
+  }
+
+  /* About section */
+  .about-section {
+    position: relative !important;
+    top: auto !important;
+    margin-top: 20px !important;
+    padding-top: 20px !important;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  /* Home page spacing */
+  .hero {
+    position: relative !important;
+    height: auto !important;
+    min-height: auto !important;
+    padding-bottom: 150px !important;
+    margin-bottom: 25px !important;
+    overflow: visible !important;
+  }
+
+  /* About section spacing */
+  .about-section {
+    position: relative !important;
+    top: auto !important;
+    transform: none !important;
+    margin-top: 0 !important;
+    padding-top: 15px !important;
+    clear: both;
+  }
+
+}
