@@ -2354,3 +2354,27 @@ section {
 body {
   padding-top: var(--header-h, 100px);
 }
+
+/* Header: page-oda flow-la space edukkum, adhunaala yedhum maraiyaadhu */
+.site-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+}
+
+body {
+  padding-top: 0 !important;
+}
+
+/* Cart: header-ku mela full-a varum */
+.overlay {
+  top: 0 !important;
+  z-index: 10000 !important;
+}
+
+.cart-drawer {
+  top: 0 !important;
+  height: 100% !important;
+  padding-top: 0 !important;
+  z-index: 10001 !important;
+}
