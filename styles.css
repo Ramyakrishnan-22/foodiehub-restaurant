@@ -2492,3 +2492,19 @@ html {
 #about {
   scroll-margin-top: 0px !important;
 }
+
+/* About click panna header-ku keezha start aagum */
+#about {
+  scroll-margin-top: var(--header-h, 62px) !important;
+}
+
+/* Home-kum About-kum naduvula gap */
+.about-section {
+  margin-top: 40px !important;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    margin-top: 30px !important;
+  }
+}
