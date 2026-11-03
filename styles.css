@@ -2593,7 +2593,7 @@ html {
 @media (max-width: 768px) {
   .about-section {
     position: relative;
-    top: 40px;
+    top: 50px;
     margin-bottom: 80px !important;
   }
 }
