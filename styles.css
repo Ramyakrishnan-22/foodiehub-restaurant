@@ -2338,3 +2338,15 @@ section {
 .cart-items {
   padding-top: 14px;
 }
+
+.cart-drawer {
+  top: 0;
+  height: 100%;
+  padding-top: 110px;
+  /* header height-ku sariyaana space */
+  z-index: 100;
+}
+
+.overlay {
+  z-index: 90;
+}
