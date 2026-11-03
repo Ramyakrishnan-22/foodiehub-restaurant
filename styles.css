@@ -2339,14 +2339,28 @@ section {
   padding-top: 14px;
 }
 
-.cart-drawer {
-  top: 0;
-  height: 100%;
-  padding-top: 110px;
-  /* header height-ku sariyaana space */
-  z-index: 100;
+.site-header {
+  z-index: 50 !important;
 }
 
 .overlay {
+  z-index: 9000 !important;
+}
+
+.cart-drawer {
+  z-index: 9001 !important;
+}:root {
+  --header-h: 100px;
+}
+
+.overlay {
+  top: var(--header-h);
   z-index: 90;
+}
+
+.cart-drawer {
+  top: var(--header-h);
+  height: calc(100% - var(--header-h));
+  padding-top: 0;
+  z-index: 100;
 }
