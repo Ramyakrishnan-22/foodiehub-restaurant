@@ -109,13 +109,13 @@ const menu = {
         name: 'Thatte Idli',
         price: 70,
         desc: 'Large, plate-shaped soft idli served with chutney.',
-        img: 'images/thatte idli.jpg'
+        img: 'images/Thatte idli.jpg'
       },
       {
         name: 'Kanchipuram Idli',
         price: 80,
         desc: 'Spiced idli with cashews, ginger and pepper.',
-        img: 'images/kanchipuram idli.jpg'
+        img: 'images/Kanchipuram idli.jpg'
       }
     ]
   },
@@ -183,13 +183,13 @@ const menu = {
         name: 'Sakkarai Pongal',
         price: 80,
         desc: 'Sweet pongal made with jaggery, ghee, cashews and cardamom.',
-        img: 'images/sakkarai pongal.jpg'
+        img: 'images/Sakkarai pongal.jpg'
       },
       {
         name: 'Millet Pongal',
         price: 75,
         desc: 'Healthy pongal made with millet, moong dal and black pepper.',
-        img: 'images/millet pongal.jpg'
+        img: 'images/Millet pongal.jpg'
       },
       {
         name: 'Rava Pongal',
@@ -302,25 +302,25 @@ const menu = {
         name: 'Paneer Butter Masala',
         price: 150,
         desc: 'Paneer cooked in rich tomato and butter gravy.',
-        img: 'images/paneer butter masala.jpg'
+        img: 'images/Paneer Butter Masala.jpg'
       },
       {
         name: 'Dal Fry',
         price: 100,
         desc: 'Yellow lentils cooked with aromatic spices.',
-        img: 'images/dal fry.jpg'
+        img: 'images/Dal Fry.jpg'
       },
       {
         name: 'Chana Masala',
         price: 110,
         desc: 'Chickpeas cooked in traditional masala gravy.',
-        img: 'images/chana masala.jpg'
+        img: 'images/Chana Masala.jpg'
       },
       {
         name: 'Mushroom Masala',
         price: 140,
         desc: 'Fresh mushrooms cooked in spicy gravy.',
-        img: 'images/mushroom masala.jpg'
+        img: 'images/Mushroom Masala.jpg'
       }
     ]
   },
@@ -390,13 +390,13 @@ const menu = {
         name: 'Vanilla Ice Cream',
         price: 60,
         desc: 'Classic creamy vanilla ice cream.',
-        img: 'images/vanilla ice cream.jpg'
+        img: 'images/Vanilla Ice Cream.jpg'
       },
       {
         name: 'Chocolate Ice Cream',
         price: 70,
         desc: 'Rich and creamy chocolate ice cream.',
-        img: 'images/chocolate ice cream.jpg'
+        img: 'images/chocolate Ice Cream.jpg'
       }
     ]
   },
